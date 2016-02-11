@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/asieira/vfs2-xz.svg?branch=master)](https://travis-ci.org/asieira/vfs2-xz)
+
 # vfs2-xz
 
 [Apache Commons VFS](https://commons.apache.org/proper/commons-vfs/) support for XZ files based on their internal 
