@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- allows usage of XZ compressed files whithin Apache Commons VFS -->
+<providers>
+    <provider class-name="com.github.asieira.vfs2_xz.XzFileProvider">
+        <scheme name="xz"/>
+        <if-available class-name="org.tukaani.xz.XZ"/>
+    </provider>
+
+    <extension-map extension="xz" scheme="xz"/>
+    <mime-type-map mime-type="application/x-xz" scheme="xz"/>
+</providers>
